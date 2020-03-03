@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Starter Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- AWAL  -->
+
+<div class="container-fluid"> 
+    <div class="img">
+        <img src="img/yooo.jpg" class="img-thumbnail">
+    </div>
+</div>
+<div class="container-fluid">
+    
+        <div class=" text-light text-center p-0 bg-dark ">
+            <h1>ECHA ALFA RAHMATIKA</h1>
+            <p>Desain Pengalam Pengguna | 2020 | @echaalfa__</p>
+        </div>
+    
+</div>
+<div class="container-fluid">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6, m-5 pb-5">
+    <div class="container-fluid, m-3 pb-5">
+       <div ><h4 >TENTANG</h4></div>
+       <div class="row">
+        <div class="col-sm-12"><ul>
+            <li>Wanita</li>
+            <li>20 tahun</li>
+            <li>Indonesian</li>
+          </ul></div>
+    </div>
+    </div>
+
+    <div class="container-fluid, m-3 pb-5">
+        <div><h4>PENGALAMAN</h4><button onclick="myFunction()">Show/hide</button></div>
+            <div id="pengalaman">
+            <div class="row">
+                <div class="col-sm-4">2010 - 2012</div>
+                <div class="col-sm-8">
+                    <div class="font-weight-bold">Volunteer Banjir</div>
+                    <div >Bekerja untuk membantu korban banjir</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">2013 - 2014</div>
+                <div class="col-sm-8">
+                    <div class="font-weight-bold">Volunteer NASA</div>
+                    <div >Bekerja untuk membantu penelitian di NASA</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">2015 - 2017</div>
+                <div class="col-sm-8">
+                    <div class="font-weight-bold">Ketua Ikatan Volunteer Indonesia</div>
+                    <div >Bekerja menjadi ketua ikatan volunteer indonesia</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">2018 - 2019</div>
+                <div class="col-sm-8">
+                    <div class="font-weight-bold">Mahasiswa Biasa</div>
+                    <div >Menjadi mahasiswa biasa.</div>
+                </div>
+            </div>
+            </div>
+          
+    </div>
+
+    <div class="container-fluid,, m-3 pb-5">
+        <div ><h4>PENDIDIKAN</h4><button onclick="myFunction2()">Show/hide</button></div>
+        <div id="pendidikan">
+        <div class="row">
+            <div class="col-sm-4">2006 - 2011</div>
+            <div class="col-sm-8">SDN Dukuhmojo 01</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">2011 - 2014</div>
+            <div class="col-sm-8">SMPN 1 Mojoagung</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">2014 - 2017</div>
+            <div class="col-sm-8">SMAN Mojoagung</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">2017 - sekarang</div>
+            <div class="col-sm-8">S1 Sistem Informasi ITS</div>
+        </div>
+        </div>
+      
+    </div>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
+
+<!-- AKHIR  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("pengalaman");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+
+        function myFunction2() {
+          var x = document.getElementById("pendidikan");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+</body>
+
+</html>
